@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct InstaSimpleApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(SessionStore())
         }
     }
 }

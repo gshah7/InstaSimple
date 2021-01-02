@@ -3,23 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9FF5D62B2542BD4CD8C095E6 /* Pods_InstaSimple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898A3CAAE381EAFFF7FF9E5B /* Pods_InstaSimple.framework */; };
+		C47282C525A1159F00C14FDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C47282C425A1159F00C14FDB /* GoogleService-Info.plist */; };
 		C47F799525A033EF006005CD /* InstaSimpleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F799425A033EF006005CD /* InstaSimpleApp.swift */; };
-		C47F799725A033EF006005CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F799625A033EF006005CD /* ContentView.swift */; };
 		C47F799925A033F0006005CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47F799825A033F0006005CD /* Assets.xcassets */; };
 		C47F799C25A033F0006005CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47F799B25A033F0006005CD /* Preview Assets.xcassets */; };
+		C47F79A625A03433006005CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79A525A03433006005CD /* ContentView.swift */; };
+		C47F79AB25A03465006005CD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79AA25A03465006005CD /* LoginView.swift */; };
+		C47F79AE25A03486006005CD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79AD25A03486006005CD /* HomeView.swift */; };
+		C47F79B125A0353E006005CD /* SnapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79B025A0353E006005CD /* SnapView.swift */; };
+		C47F79B425A03561006005CD /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79B325A03561006005CD /* PostView.swift */; };
+		C47F79B725A035D5006005CD /* ThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79B625A035D5006005CD /* ThreadView.swift */; };
+		C47F79BA25A03638006005CD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79B925A03638006005CD /* ProfileView.swift */; };
+		C47F79BD25A03659006005CD /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79BC25A03659006005CD /* FeedView.swift */; };
+		C47F79C125A03692006005CD /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79C025A03692006005CD /* ImagePickerView.swift */; };
+		C47F79C625A036F4006005CD /* FeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79C525A036F4006005CD /* FeedData.swift */; };
+		C47F79CA25A0374B006005CD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79C925A0374B006005CD /* Constants.swift */; };
+		C47F79CD25A03760006005CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79CC25A03760006005CD /* User.swift */; };
+		C47F79D025A038BA006005CD /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79CF25A038BA006005CD /* SessionStore.swift */; };
+		C47F79D325A039BC006005CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47F79D225A039BC006005CD /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15D10B3302D25BCC75E5B8C7 /* Pods-InstaSimple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaSimple.debug.xcconfig"; path = "Target Support Files/Pods-InstaSimple/Pods-InstaSimple.debug.xcconfig"; sourceTree = "<group>"; };
+		898A3CAAE381EAFFF7FF9E5B /* Pods_InstaSimple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaSimple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9066AEC362CA9F69DC353F0A /* Pods-InstaSimple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaSimple.release.xcconfig"; path = "Target Support Files/Pods-InstaSimple/Pods-InstaSimple.release.xcconfig"; sourceTree = "<group>"; };
+		C47282C425A1159F00C14FDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C47F799125A033EF006005CD /* InstaSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47F799425A033EF006005CD /* InstaSimpleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSimpleApp.swift; sourceTree = "<group>"; };
-		C47F799625A033EF006005CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C47F799825A033F0006005CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C47F799B25A033F0006005CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C47F799D25A033F0006005CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47F79A525A03433006005CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C47F79AA25A03465006005CD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C47F79AD25A03486006005CD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C47F79B025A0353E006005CD /* SnapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapView.swift; sourceTree = "<group>"; };
+		C47F79B325A03561006005CD /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		C47F79B625A035D5006005CD /* ThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadView.swift; sourceTree = "<group>"; };
+		C47F79B925A03638006005CD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C47F79BC25A03659006005CD /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		C47F79C025A03692006005CD /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		C47F79C525A036F4006005CD /* FeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedData.swift; sourceTree = "<group>"; };
+		C47F79C925A0374B006005CD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C47F79CC25A03760006005CD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C47F79CF25A038BA006005CD /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		C47F79D225A039BC006005CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF5D62B2542BD4CD8C095E6 /* Pods_InstaSimple.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84272A4A0F9EF6C884906F28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				898A3CAAE381EAFFF7FF9E5B /* Pods_InstaSimple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0944D2218D828EC7E2C8CD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15D10B3302D25BCC75E5B8C7 /* Pods-InstaSimple.debug.xcconfig */,
+				9066AEC362CA9F69DC353F0A /* Pods-InstaSimple.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C47F798825A033EF006005CD = {
 			isa = PBXGroup;
 			children = (
 				C47F799325A033EF006005CD /* InstaSimple */,
 				C47F799225A033EF006005CD /* Products */,
+				C0944D2218D828EC7E2C8CD9 /* Pods */,
+				84272A4A0F9EF6C884906F28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,10 +104,15 @@
 		C47F799325A033EF006005CD /* InstaSimple */ = {
 			isa = PBXGroup;
 			children = (
+				C47F79C425A036E2006005CD /* Models */,
+				C47F79BF25A0367E006005CD /* Representables */,
+				C47F79A425A033FB006005CD /* Views */,
 				C47F799425A033EF006005CD /* InstaSimpleApp.swift */,
-				C47F799625A033EF006005CD /* ContentView.swift */,
+				C47F79D225A039BC006005CD /* AppDelegate.swift */,
+				C47F79CF25A038BA006005CD /* SessionStore.swift */,
 				C47F799825A033F0006005CD /* Assets.xcassets */,
 				C47F799D25A033F0006005CD /* Info.plist */,
+				C47282C425A1159F00C14FDB /* GoogleService-Info.plist */,
 				C47F799A25A033F0006005CD /* Preview Content */,
 			);
 			path = InstaSimple;
@@ -69,6 +126,39 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C47F79A425A033FB006005CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C47F79A525A03433006005CD /* ContentView.swift */,
+				C47F79B025A0353E006005CD /* SnapView.swift */,
+				C47F79B325A03561006005CD /* PostView.swift */,
+				C47F79B625A035D5006005CD /* ThreadView.swift */,
+				C47F79AD25A03486006005CD /* HomeView.swift */,
+				C47F79B925A03638006005CD /* ProfileView.swift */,
+				C47F79BC25A03659006005CD /* FeedView.swift */,
+				C47F79AA25A03465006005CD /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C47F79BF25A0367E006005CD /* Representables */ = {
+			isa = PBXGroup;
+			children = (
+				C47F79C025A03692006005CD /* ImagePickerView.swift */,
+			);
+			path = Representables;
+			sourceTree = "<group>";
+		};
+		C47F79C425A036E2006005CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C47F79C525A036F4006005CD /* FeedData.swift */,
+				C47F79C925A0374B006005CD /* Constants.swift */,
+				C47F79CC25A03760006005CD /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C47F79A025A033F0006005CD /* Build configuration list for PBXNativeTarget "InstaSimple" */;
 			buildPhases = (
+				5C6531EF318A1EA0D2380506 /* [CP] Check Pods Manifest.lock */,
 				C47F798D25A033EF006005CD /* Sources */,
 				C47F798E25A033EF006005CD /* Frameworks */,
 				C47F798F25A033EF006005CD /* Resources */,
+				358269D90B2CA0219A24BA60 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +220,74 @@
 			files = (
 				C47F799C25A033F0006005CD /* Preview Assets.xcassets in Resources */,
 				C47F799925A033F0006005CD /* Assets.xcassets in Resources */,
+				C47282C525A1159F00C14FDB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		358269D90B2CA0219A24BA60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaSimple/Pods-InstaSimple-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaSimple/Pods-InstaSimple-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaSimple/Pods-InstaSimple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6531EF318A1EA0D2380506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaSimple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C47F798D25A033EF006005CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C47F799725A033EF006005CD /* ContentView.swift in Sources */,
+				C47F79CD25A03760006005CD /* User.swift in Sources */,
+				C47F79C625A036F4006005CD /* FeedData.swift in Sources */,
+				C47F79BA25A03638006005CD /* ProfileView.swift in Sources */,
+				C47F79D325A039BC006005CD /* AppDelegate.swift in Sources */,
+				C47F79BD25A03659006005CD /* FeedView.swift in Sources */,
+				C47F79AB25A03465006005CD /* LoginView.swift in Sources */,
+				C47F79B125A0353E006005CD /* SnapView.swift in Sources */,
+				C47F79C125A03692006005CD /* ImagePickerView.swift in Sources */,
+				C47F79AE25A03486006005CD /* HomeView.swift in Sources */,
+				C47F79D025A038BA006005CD /* SessionStore.swift in Sources */,
 				C47F799525A033EF006005CD /* InstaSimpleApp.swift in Sources */,
+				C47F79B725A035D5006005CD /* ThreadView.swift in Sources */,
+				C47F79B425A03561006005CD /* PostView.swift in Sources */,
+				C47F79A625A03433006005CD /* ContentView.swift in Sources */,
+				C47F79CA25A0374B006005CD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +412,7 @@
 		};
 		C47F79A125A033F0006005CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D10B3302D25BCC75E5B8C7 /* Pods-InstaSimple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +434,7 @@
 		};
 		C47F79A225A033F0006005CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9066AEC362CA9F69DC353F0A /* Pods-InstaSimple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
